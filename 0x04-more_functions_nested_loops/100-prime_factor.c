@@ -48,7 +48,6 @@ void largest_prime_factor(long int num)
 			largest = prmNu;
 		}
 	}
-	
 	if (num > 2)
 		largest = num;
 	printf("%d\n", largest);
